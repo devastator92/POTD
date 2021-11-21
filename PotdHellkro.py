@@ -17,8 +17,8 @@ url = 'https://api.nasa.gov/planetary/apod?api_key=WJsoSmfRyWRqydUZjIqIcuGeOasuL
 
 response = requests.get(url)
 data = response.json()
-st.title('Picture of the Day', anchor='center')
-st.header('NASA Picture of the Day')
+st.title('Astronomy Picture of the Day', anchor='center')
+st.header('NASA Astronomy Picture of the Day')
 st.subheader('Socio, usando Streamlit y python jojojojo')
 
 image = Image.open(requests.get(data['url'], stream=True).raw)
