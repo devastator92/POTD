@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(
 page_title="Picture of the Day",
 page_icon="random",
-layout="wide",
+layout="centered",
 initial_sidebar_state="expanded",
 menu_items={
 'Get Help': 'https://www.extremelycoolapp.com/help',
