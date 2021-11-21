@@ -9,7 +9,7 @@ layout="centered",
 initial_sidebar_state="expanded",
 )
 
-url = 'https://api.nasa.gov/planetary/apod?api_key=' + st.secrets["NASA_APIKEY"]
+url = 'https://api.nasa.gov/planetary/apod?api_key=' + st.secrets["MY_NASA_APIKEY"]
 
 response = requests.get(url)
 data = response.json()
