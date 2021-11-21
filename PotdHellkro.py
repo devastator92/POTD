@@ -21,4 +21,3 @@ explanation = data['explanation']
 st.markdown("<p style='text-align: justify; color: black;'>" + explanation + "</p>", unsafe_allow_html=True)
 st.write(data['copyright'])
 st.write(data['date'])
-
