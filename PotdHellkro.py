@@ -12,12 +12,8 @@ st.set_page_config(
         'Get Help': 'https://www.extremelycoolapp.com/help',
         'Report a bug': "https://www.extremelycoolapp.com/bug",
         'About': "# This is a header. This is an *extremely* cool app!"})
-def app():
-#definir la url de la API
-    url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
 
-
-url = 'https://api.nasa.gov/planetary/apod?api_key=' + st.secrets["NASA_APIKEY"]
+url = 'https://api.nasa.gov/planetary/apod?api_key=' + st.secrets["MY_NASA_APIKEY"]
 
 response = requests.get(url)
 data = response.json()
