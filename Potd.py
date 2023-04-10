@@ -4,7 +4,7 @@ from PIL import Image
 
 st.set_page_config(
 page_title="Picture of the Day",
-page_icon="burger",
+page_icon="hamburger",
 layout="centered",
 initial_sidebar_state="expanded",
 )
